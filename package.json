@@ -1,0 +1,22 @@
+{
+  "name": "shop-here",
+  "version": "1.0.0",
+  "description": "MERN stack application for Shopping ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app-backend/server",
+    "server": "nodemon app-backend/server",
+    "client": "npm start --prefix app-frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Yugandhar",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  }
+}
