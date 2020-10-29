@@ -1,5 +1,5 @@
 import axios from 'axios';
-import * as actions from '../constants/productActions';
+import * as actions from '../constants/productActionConstants';
 
 export const fetchProducts = () => async dispatch => {
   try {

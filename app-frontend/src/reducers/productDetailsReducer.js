@@ -1,4 +1,4 @@
-import * as actions from '../constants/productActions';
+import * as actions from '../constants/productActionConstants';
 
 export const productDetailsReducer = (
   state = { product: { reviews: [] } },
